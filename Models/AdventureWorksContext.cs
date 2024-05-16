@@ -133,7 +133,7 @@ public partial class AdventureWorksContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         //Place connection string here
-        optionsBuilder.UseSqlServer("Data Source=IBM-PF39HSKB;Initial Catalog=AdventureWorks;Persist Security Info=True;User ID=sa;Password=Pp@SuperAd@7681;Encrypt=False");
+        //optionsBuilder.UseSqlServer("Data Source=IBM-PF39HSKB;Initial Catalog=AdventureWorks;Persist Security Info=True;User ID=sa;Password=Pp@SuperAd@7681;Encrypt=False");
 
         base.OnConfiguring(optionsBuilder);
     }
